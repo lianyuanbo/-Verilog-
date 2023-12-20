@@ -1,0 +1,76 @@
+$date
+	Tue Dec 19 21:47:55 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_x74151 $end
+$scope module u_x74151 $end
+$var wire 8 ! D [7:0] $end
+$var wire 1 " En $end
+$var wire 3 # S [2:0] $end
+$var wire 1 $ Yn $end
+$var wire 1 % Y $end
+$upscope $end
+$upscope $end
+$scope module tb_x74151 $end
+$var reg 1 " En $end
+$upscope $end
+$scope module tb_x74151 $end
+$var reg 3 & S [2:0] $end
+$upscope $end
+$scope module tb_x74151 $end
+$var reg 8 ' D [7:0] $end
+$upscope $end
+$scope module tb_x74151 $end
+$var wire 1 % Y $end
+$upscope $end
+$scope module tb_x74151 $end
+$var wire 1 $ Yn $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 '
+b0 &
+0%
+1$
+b0 #
+1"
+b1 !
+$end
+#5000
+b10 !
+b10 '
+b1 #
+b1 &
+#10000
+0$
+1%
+b100 !
+b100 '
+b10 #
+b10 &
+0"
+#15000
+b1000 !
+b1000 '
+b11 #
+b11 &
+#20000
+b10000 !
+b10000 '
+b100 #
+b100 &
+#25000
+b100000 !
+b100000 '
+b101 #
+b101 &
+#30000

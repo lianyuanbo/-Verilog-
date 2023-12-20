@@ -1,0 +1,48 @@
+$date
+	Wed Dec 20 22:19:27 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_x74121 $end
+$scope module u_x74121 $end
+$var wire 1 ! A $end
+$var wire 1 " B $end
+$var wire 1 # trigger $end
+$var reg 1 $ Q $end
+$var reg 32 % counter [31:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_x74121 $end
+$var reg 1 ! A $end
+$upscope $end
+$scope module tb_x74121 $end
+$var reg 1 " B $end
+$upscope $end
+$scope module tb_x74121 $end
+$var wire 1 $ Q $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+0$
+0#
+0"
+0!
+$end
+#10000
+1#
+1!
+#20000
+1"
+0!
+#30000
+1!
+#40000

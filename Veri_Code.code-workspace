@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"digital-ide.welcome.show": false,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"digital-ide.dont-show-again.propose.issue": true
+	}
+}

@@ -1,0 +1,136 @@
+$date
+	Wed Dec 20 21:05:48 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_x74194 $end
+$scope module u_x74194 $end
+$var wire 1 ! CP $end
+$var wire 1 " CR $end
+$var wire 4 # D [3:0] $end
+$var wire 1 $ DSL $end
+$var wire 1 % DSR $end
+$var wire 2 & S [1:0] $end
+$var reg 4 ' Q [3:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_x74194 $end
+$var reg 1 " CR $end
+$upscope $end
+$scope module tb_x74194 $end
+$var reg 1 % DSR $end
+$upscope $end
+$scope module tb_x74194 $end
+$var reg 1 $ DSL $end
+$upscope $end
+$scope module tb_x74194 $end
+$var reg 1 ! CP $end
+$upscope $end
+$scope module tb_x74194 $end
+$var reg 4 ( D [3:0] $end
+$upscope $end
+$scope module tb_x74194 $end
+$var reg 2 ) S [1:0] $end
+$upscope $end
+$scope module tb_x74194 $end
+$var wire 4 * Q [3:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+b11 )
+b1111 (
+b0 '
+b11 &
+0%
+0$
+b1111 #
+1"
+0!
+$end
+#1000
+1!
+#2000
+b1111 '
+b1111 *
+0!
+0"
+#3000
+1!
+#4000
+0!
+1%
+b1 &
+b1 )
+1"
+#5000
+b1110 '
+b1110 *
+1!
+#6000
+0!
+#7000
+b1100 '
+b1100 *
+1!
+#8000
+0!
+0%
+#9000
+b1000 '
+b1000 *
+1!
+#10000
+0!
+#11000
+b0 '
+b0 *
+1!
+#12000
+b1111 '
+b1111 *
+0!
+b11 &
+b11 )
+0"
+#13000
+1!
+#14000
+0!
+1$
+b10 &
+b10 )
+1"
+#15000
+b111 '
+b111 *
+1!
+#16000
+0!
+#17000
+b11 '
+b11 *
+1!
+#18000
+0!
+0$
+#19000
+b1 '
+b1 *
+1!
+#20000
+0!
+#21000
+b0 '
+b0 *
+1!
+#22000
+0!

@@ -1,0 +1,8 @@
+xxx.v后缀文件为源文件;
+xxx_tb.v后缀文件为仿真测试文件;
+xxx.vcd后缀文件为仿真波形文件
+
+环境配置参考:
+http://t.csdnimg.cn/OTgGn (verilog环境配置)
+http://t.csdnimg.cn/g7lAz (verilog格式化代码)
+http://t.csdnimg.cn/T1jNx (解决include报错问题)
