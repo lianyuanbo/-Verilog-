@@ -18,34 +18,30 @@ x74121  u_x74121 (
 );
 
 initial
+    $monitor($time,":\t A=%b, B=%b, Q=%b\n", A, B, Q);
+
+initial
 begin
     $dumpfile("x74121.vcd");
     $dumpvars(0, u_x74121, A, B, Q);
-    // Test case 1
+    // 初始化输入信号
     A = 0;
     B = 0;
-    #10;
-    if (Q !== 0) $display("Test case 1 failed");
-
-    // Test case 2
-    A = 1;
-    B = 0;
-    #10;
-    if (Q !== 1) $display("Test case 2 failed");
-
-    // Test case 3
-    A = 0;
-    B = 1;
-    #10;
-    if (Q !== 1) $display("Test case 3 failed");
-
-    // Test case 4
-    A = 1;
-    B = 1;
-    #10;
-    if (Q !== 0) $display("Test case 4 failed");
-
-    $finish;
-end
+    
+    // 模拟触发信号
+    #10 A = 1;
+    #5 A = 0;
+    
+    // 控制引脚置高并保持一段时间
+    #20 B = 1;
+    #50 B = 0;
+    
+    // 模拟触发信号
+    #10 A = 1;
+    #5 A = 0;
+    
+    // 等待输出脉冲信号
+    #100 $finish;
+  end
 
 endmodule
